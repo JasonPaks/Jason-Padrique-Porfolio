@@ -67,8 +67,6 @@ window.addEventListener('scroll', () => {
 
 // Form Validation
 contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    
     let isValid = true;
     const nameInput = document.getElementById('name');
     const emailInput = document.getElementById('email');
@@ -98,11 +96,12 @@ contactForm.addEventListener('submit', (e) => {
         isValid = false;
     }
     
-    if (isValid) {
-        // Here you would typically send the data to a server
-        alert('Message sent successfully!');
-        contactForm.reset();
+    if (!isValid) {
+        e.preventDefault();
+        return;
     }
+
+    alert('Your email app will open so you can send the message to Jason.');
 });
 
 function setError(input, message) {
