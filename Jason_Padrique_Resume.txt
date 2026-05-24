@@ -1,0 +1,37 @@
+Jason Padrique
+Frontend Developer
+
+Contact
+Email: jasongwapo155@gmail.com
+Phone: +63 967 962 2606
+Location: Philippines
+
+Professional Summary
+Frontend developer focused on building responsive, user-friendly websites and web applications.
+Experience working on full-stack projects with frontend and backend integration, API connections, authentication tokens, and database-driven CRUD systems.
+
+Technical Skills
+- HTML
+- CSS
+- JavaScript
+- Python
+- React Native
+- Responsive Design
+- Java
+- API Integration
+- Database CRUD
+- Authentication Tokens
+
+Selected Projects
+- Nature's Foot Spa Booking System: Fully developed full-stack booking system with frontend, backend, API, and database integration.
+- Mobile Customization System: Brand customization platform with connected frontend and backend, API integration, auth tokens, and CRUD database operations.
+- Portfolio Website: Responsive personal portfolio built with HTML, CSS, and JavaScript.
+
+Education / Certificates
+- Java Fundamentals SY2324-2T
+- Computer Programming 2 - SY2324-2T
+- Avid Reader achievements and badges
+
+Languages
+- English
+- Filipino
