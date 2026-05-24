@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo"><span>&lt;/&gt;</span> JasonPadrique</a>
+            <ul class="navlist">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="header-icons">
+                <i class="fa-solid fa-moon" id="theme-btn"></i>
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="home" id="home">
+        <div class="container home-content">
+            <div class="home-text">
+                <span class="greeting">Hello, I'm</span>
+                <h1>Jason Padrique</h1>
+                <h3 class="role">Frontend Developer</h3>
+                <p>I build responsive, user-friendly websites and web applications using modern technologies.</p>
+                <div class="social-icons">
+                    <a href="https://github.com/JasonPaks" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/jason.padrique.3" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/zikzonewater/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="home-buttons">
+                    <a href="#" class="btn btn-primary"><i class="fa-solid fa-download"></i> Download Resume</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="home-img">
+                <div class="img-box">
+                    <img src="https://ui-avatars.com/api/?name=Jason+Padrique&size=300&background=0D8ABC&color=fff" alt="Profile Vector">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2><i class="fa-regular fa-user"></i> About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate fullstack developer who loves turning ideas into beautiful and functional web experiences. I enjoy learning new technologies and building projects that solve real-world problems.</p>
+                    <ul class="about-details">
+                        <li><i class="fa-solid fa-user"></i> <strong>Name:</strong> Jason Padrique</li>
+                        <li><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> jasongwapo155@gmail.com</li>
+                        <li><i class="fa-solid fa-phone"></i> <strong>Phone:</strong> +63 967 962 2606</li>
+                        <li><i class="fa-solid fa-location-dot"></i> <strong>Location:</strong> Philippines</li>
+                    </ul>
+                </div>
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="About Illustration">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2><i class="fa-solid fa-laptop-code"></i> My Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill 1 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-html5" style="color: #e34f26;"></i></div>
+                    <h3>HTML</h3>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                    </div>
+                    <span class="progress-text">90%</span>
+                </div>
+                <!-- Skill 2 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-css3-alt" style="color: #1572b6;"></i></div>
+                    <h3>CSS</h3>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                    </div>
+                    <span class="progress-text">85%</span>
+                </div>
+                <!-- Skill 3 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-js" style="color: #f7df1e;"></i></div>
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                    <span class="progress-text">80%</span>
+                </div>
+                <!-- Skill 4 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-python" style="color: #3776AB;"></i></div>
+                    <h3>Python</h3>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: 75%;"></div>
+                    </div>
+                    <span class="progress-text">75%</span>
+                </div>
+                <!-- Skill 5 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-react" style="color: #61DAFB;"></i></div>
+                    <h3>React Native</h3>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: 70%;"></div>
+                    </div>
+                    <span class="progress-text">70%</span>
+                </div>
+                <!-- Skill 6 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-mobile-screen-button" style="color: #333;"></i></div>
+                    <h3>Responsive Design</h3>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                    </div>
+                    <span class="progress-text">90%</span>
+                </div>
+                <!-- Skill 7 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-java" style="color: #5382a1;"></i></div>
+                    <h3>Java</h3>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: 75%;"></div>
+                    </div>
+                    <span class="progress-text">75%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2><i class="fa-solid fa-folder-open"></i> My Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>A responsive portfolio website built with HTML, CSS and JavaScript.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="booking service.png" alt="Nature's Foot Spa Booking System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Nature's Foot Spa Booking System</h3>
+                        <p>A fully developed full-stack booking system featuring a seamlessly connected frontend and backend, complete with API and database integration.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JS</span><span>API</span><span>Database</span>
+                        </div>
+                        <a href="https://github.com/Aaron-blip545/salon-backend" class="project-link" target="_blank" rel="noopener noreferrer">View Source <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="Mobile.jpg" alt="Mobile Customization System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Mobile Customization System</h3>
+                        <p>A brand customization platform with connected frontend and backend, using API integration, auth tokens, and a database that follows the CRUD method.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JS</span><span>API</span><span>Auth</span><span>CRUD</span><span>Database</span>
+                        </div>
+                        <a href="https://github.com/JasonPaks/Mobile" class="project-link" target="_blank" rel="noopener noreferrer">View Source <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements" id="achievements">
+        <div class="container">
+            <div class="section-title">
+                <h2><i class="fa-solid fa-medal"></i> Achievements & Certificates</h2>
+            </div>
+            <div class="achievements-group">
+                <h3 class="achievements-group-title">Certificate</h3>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="ach-icon"><i class="fa-solid fa-certificate"></i></div>
+                        <div class="ach-text">
+                            <h3>Java Fundamentals SY2324-2T</h3>
+                            <p>Computer Programming 2 - SY2324-2T</p>
+                            <span>Sep 5, 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="achievements-group">
+                <h3 class="achievements-group-title">Badges</h3>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="ach-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="ach-text">
+                            <h3>Avid Reader: Challenger</h3>
+                            <p>Philippine Popular Culture - SY2425-2T</p>
+                            <span>May 6, 2025</span>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="ach-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="ach-text">
+                            <h3>Avid Reader: Master</h3>
+                            <p>Philippine Popular Culture - SY2425-2T</p>
+                            <span>Mar 25, 2025</span>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="ach-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="ach-text">
+                            <h3>Avid Reader: Emerald</h3>
+                            <p>Philippine Popular Culture - SY2425-2T</p>
+                            <span>Mar 25, 2025</span>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="ach-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="ach-text">
+                            <h3>Avid Reader: Gold</h3>
+                            <p>Philippine Popular Culture - SY2425-2T</p>
+                            <span>Mar 25, 2025</span>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="ach-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="ach-text">
+                            <h3>Avid Reader: Silver</h3>
+                            <p>Philippine Popular Culture - SY2425-2T</p>
+                            <span>Feb 7, 2025</span>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="ach-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="ach-text">
+                            <h3>Writing Wizard</h3>
+                            <p>Rizal's Life and Works - SY2425-1T</p>
+                            <span>Sep 22, 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2><i class="fa-regular fa-envelope"></i> Contact Me</h2>
+                    <p>Have a project in mind or want to work together? Feel free to send me a message!</p>
+                    <ul class="contact-list">
+                        <li><i class="fa-solid fa-envelope"></i> jasongwapo155@gmail.com</li>
+                        <li><i class="fa-solid fa-phone"></i> +63 967 962 2606</li>
+                        <li><i class="fa-solid fa-location-dot"></i> Philippines</li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="https://github.com/JasonPaks" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/jason.padrique.3" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/zikzonewater/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form action="#" id="contact-form">
+                        <div class="input-row">
+                            <div class="input-group">
+                                <input type="text" id="name" placeholder="Your Name" required>
+                                <span class="error-msg"></span>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" id="email" placeholder="Your Email" required>
+                                <span class="error-msg"></span>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                            <span class="error-msg"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Jason Padrique. All Rights Reserved. <i class="fa-solid fa-heart" style="color: #6a1b9a;"></i></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
